@@ -1,5 +1,5 @@
 name: starshot
-type: drupal
+type: drupal10
 ddev_version_constraint: '>=1.23.0'
 docroot: web
 php_version: "8.3"
