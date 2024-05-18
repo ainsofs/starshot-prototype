@@ -4,7 +4,8 @@ image: drupalpod/drupalpod-gitpod-base:20231222
 # when starting a workspace all docker images are ready
 tasks:
   - init: |
-      ddev install
+      ddev start -y
+      ddev composer install
     command: |
       ddev start -y
       gp ports await 8080 && gp preview $(gp url 8080)
