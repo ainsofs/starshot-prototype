@@ -32,6 +32,16 @@ cd starshot && ddev install
 ```
 You'll need DDEV 1.23.0 or later. [See the documentation](https://ddev.readthedocs.io/en/stable/users/install/ddev-upgrade/) if you need to upgrade.
 
+### Preview on Gitpod
+
+## Prerequisites:
+1. [Sign up for gitpod.io](https://gitpod.io/login)
+
+## Try it out:
+1. Click on the following link
+  https://gitpod.io/#https://github.com/ainsofs/starshot-prototype/tree/feat/gitpod-support
+1. Your environment is being prepared, wait about 40 seconds (A splash screen will appear)
+
 ## Whom this is for
 Anyone who wants to create a website with Drupal, but doesn't want to build it -- including the authoring experience -- from the ground up using the relatively bare-bones tools provided by Drupal core. You need extra modules to get the most out of Drupal, but it can be hard to know how to start.
 
